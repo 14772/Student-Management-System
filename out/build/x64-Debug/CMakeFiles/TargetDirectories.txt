@@ -1,0 +1,3 @@
+C:/Users/14772/Documents/test/C/Student Performance Management System/out/build/x64-Debug/CMakeFiles/Student_Performance_Management_System.dir
+C:/Users/14772/Documents/test/C/Student Performance Management System/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/14772/Documents/test/C/Student Performance Management System/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
