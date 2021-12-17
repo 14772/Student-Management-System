@@ -7,6 +7,10 @@ struct Info read_info(int object)
     StudentInfo studentInfo;
     TeacherInfo teacherInfo;
     AdminInfo adminInfo;
+    strcpy(studentInfo.passwd,"default");
+    strcpy(teacherInfo.passwd,"default");
+    strcpy(adminInfo.passwd,"default");
+    HWND wnd = GetHWnd();
     char s[100];
     InputBox(s,100,"请输入用户ID\n姓名\n性别\n出生日期\n学院\n专业\n密码",
              "用户信息",NULL,0,180);

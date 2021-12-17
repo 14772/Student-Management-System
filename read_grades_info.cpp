@@ -5,6 +5,7 @@
 GradesInfo read_grades_info()
 {
     GradesInfo gradesInfo;
+    gradesInfo.grades=-1;
     char s[100];
     InputBox(s,100,"请输入课程ID\n课程名\n教师ID\n教师姓名\n学生ID\n学生姓名\n成绩",
              "成绩信息",NULL,0,180);

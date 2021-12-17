@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/14772/Documents/test/C/Student-Management-System/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Student_Performance_Management_System
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = C$:/Users/14772/Documents/test/C/Student_Performance_Manag
 
 build cmake_object_order_depends_target_Student_Performance_Management_System: phony || CMakeFiles/Student_Performance_Management_System.dir
 
-build CMakeFiles/Student_Performance_Management_System.dir/main.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/main.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/main.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/main.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\main.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -57,7 +57,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/main.cpp.obj: CXX_COM
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/insert_item.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/insert_item.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/insert_item.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/insert_item.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\insert_item.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -65,7 +65,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/insert_item.cpp.obj: 
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/init_list.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/init_list.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/init_list.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/init_list.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\init_list.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -73,7 +73,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/init_list.cpp.obj: CX
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/destroy_list.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/destroy_list.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/destroy_list.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/destroy_list.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\destroy_list.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -81,7 +81,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/destroy_list.cpp.obj:
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/destroy_list_and_file.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/destroy_list_and_file.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/destroy_list_and_file.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/destroy_list_and_file.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\destroy_list_and_file.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -89,7 +89,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/destroy_list_and_file
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/delete_item.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/delete_item.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/delete_item.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/delete_item.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\delete_item.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -97,7 +97,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/delete_item.cpp.obj: 
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/change_item.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/change_item.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/change_item.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/change_item.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\change_item.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -105,7 +105,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/change_item.cpp.obj: 
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/bubble_sort.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/bubble_sort.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/bubble_sort.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/bubble_sort.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\bubble_sort.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -113,7 +113,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/bubble_sort.cpp.obj: 
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/output_all_items.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/output_all_items.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/output_all_items.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/output_all_items.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\output_all_items.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -121,7 +121,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/output_all_items.cpp.
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/output_one_item.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/output_one_item.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/output_one_item.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/output_one_item.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\output_one_item.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -129,7 +129,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/output_one_item.cpp.o
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/read_info.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/read_info.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/read_info.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/read_info.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\read_info.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -137,7 +137,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/read_info.cpp.obj: CX
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/save_to_file.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/save_to_file.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/save_to_file.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/save_to_file.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\save_to_file.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -145,7 +145,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/save_to_file.cpp.obj:
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/search_item.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/search_item.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/search_item.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/search_item.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\search_item.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -153,7 +153,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/search_item.cpp.obj: 
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/input_login.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/input_login.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/input_login.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/input_login.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\input_login.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -161,7 +161,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/input_login.cpp.obj: 
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/create_file.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/create_file.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/create_file.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/create_file.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\create_file.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -169,7 +169,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/create_file.cpp.obj: 
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/read_grades_info.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/read_grades_info.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/read_grades_info.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/read_grades_info.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\read_grades_info.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -177,7 +177,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/read_grades_info.cpp.
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/read_class_info.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/read_class_info.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/read_class_info.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/read_class_info.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\read_class_info.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -185,7 +185,7 @@ build CMakeFiles/Student_Performance_Management_System.dir/read_class_info.cpp.o
   TARGET_COMPILE_PDB = CMakeFiles\Student_Performance_Management_System.dir\
   TARGET_PDB = Student_Performance_Management_System.pdb
 
-build CMakeFiles/Student_Performance_Management_System.dir/judge_button.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student_Performance_Management_System/judge_button.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
+build CMakeFiles/Student_Performance_Management_System.dir/judge_button.cpp.obj: CXX_COMPILER__Student_Performance_Management_System_Debug C$:/Users/14772/Documents/test/C/Student-Management-System/judge_button.cpp || cmake_object_order_depends_target_Student_Performance_Management_System
   DEP_FILE = CMakeFiles\Student_Performance_Management_System.dir\judge_button.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\Student_Performance_Management_System.dir
@@ -217,7 +217,7 @@ build Student_Performance_Management_System.exe: CXX_EXECUTABLE_LINKER__Student_
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\14772\Documents\test\C\Student_Performance_Management_System\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\14772\Documents\test\C\Student-Management-System\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -228,7 +228,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\14772\Documents\test\C\Student_Performance_Management_System\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\14772\Documents\test\C\Student_Performance_Management_System -BC:\Users\14772\Documents\test\C\Student_Performance_Management_System\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\14772\Documents\test\C\Student-Management-System\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\14772\Documents\test\C\Student-Management-System -BC:\Users\14772\Documents\test\C\Student-Management-System\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -246,7 +246,7 @@ build Student_Performance_Management_System: phony Student_Performance_Managemen
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/14772/Documents/test/C/Student_Performance_Management_System/cmake-build-debug
+# Folder: C:/Users/14772/Documents/test/C/Student-Management-System/cmake-build-debug
 
 build all: phony Student_Performance_Management_System.exe
 

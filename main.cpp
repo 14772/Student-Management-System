@@ -101,8 +101,12 @@ int main() {
                 choice = judge_button(m, 4);
                 switch (choice) {
                     case 1:
-                        if (search_item(studentList, tmp_id,1) == NULL) {
-                            item = read_info(1);
+                        item = read_info(1);
+                        if (!strcmp(item.passwd,"default"))  {
+                            MessageBox(wnd, "请输入完整的7条信息", "提示", MB_OK);
+                            break;
+                        }
+                        if (search_item(studentList, item.id,1) == NULL) {
                             insert_item(studentList, item,citem, gitem, 1);
                         } else
                             MessageBox(wnd, "此ID已存在，请换一个ID", "警告", MB_OK | MB_ICONWARNING);
@@ -112,8 +116,12 @@ int main() {
                             MessageBox(wnd, "请以教师或管理员身份进行此操作！", "警告", MB_OK | MB_ICONWARNING);
                             break;
                         }
-                        if (search_item(teacherList, tmp_id,2) == NULL) {
-                            item = read_info(2);
+                        item = read_info(2);
+                        if (!strcmp(item.passwd,"default"))  {
+                            MessageBox(wnd, "请输入完整的7条信息", "提示", MB_OK);
+                            break;
+                        }
+                        if (search_item(teacherList, item.id,2) == NULL) {
                             insert_item(teacherList, item,citem, gitem, 2);
                         } else
                             MessageBox(wnd, "此ID已存在，请换一个ID", "警告", MB_OK | MB_ICONWARNING);
@@ -123,8 +131,12 @@ int main() {
                             MessageBox(wnd, "请以管理员身份进行此操作！", "警告", MB_OK | MB_ICONWARNING);
                             break;
                         }
-                        if (search_item(adminList,tmp_id,3) == NULL) {
-                            item = read_info(3);
+                        item = read_info(3);
+                        if (!strcmp(item.passwd,"default"))  {
+                            MessageBox(wnd, "请输入完整的7条信息", "提示", MB_OK);
+                            break;
+                        }
+                        if (search_item(adminList,item.id,3) == NULL) {
                             insert_item(adminList, item,citem, gitem, 3);
                         } else
                             MessageBox(wnd, "此ID已存在，请换一个ID", "警告", MB_OK | MB_ICONWARNING);
@@ -258,8 +270,16 @@ int main() {
                     break;
                 }
                 InputBox(s, 30, "输入要查询成绩的所属学生ID");
+                if(*s==0) {
+                    MessageBox(wnd, "请输入ID", "警告", MB_OK | MB_ICONWARNING);
+                    break;
+                }
                 strcpy(tmp_id, s);
                 gradesList = search_item(gradesList, tmp_id,5);
+                if(gradesList==NULL) {
+                    MessageBox(wnd, "查无此ID", "警告", MB_OK | MB_ICONWARNING);
+                    break;
+                }
                 output_one_item(gradesList, 5);
                 break;
             case 5://成绩信息管理
@@ -277,6 +297,10 @@ int main() {
                 switch (choice) {
                     case 1 :
                         gitem = read_grades_info();
+                        if (gitem.grades==-1)  {
+                            MessageBox(wnd, "请输入完整的7条信息", "提示", MB_OK);
+                            break;
+                        }
                         insert_item(gradesList, item, citem,gitem, 5);//尾插法
                         break;
                     case 2 :
@@ -289,6 +313,10 @@ int main() {
                         break;
                     case 3 :
                         gitem = read_grades_info();
+                        if (gitem.grades==-1)  {
+                            MessageBox(wnd, "请输入完整的7条信息", "提示", MB_OK);
+                            break;
+                        }
                         InputBox(s, 30, "输入要修改记录的ID");
                         strcpy(tmp_id, s);
                         if(change_item(gradesList, tmp_id,item, citem, gitem, 5))
@@ -321,6 +349,10 @@ int main() {
                 switch (choice) {
                     case 1 :
                         citem = read_class_info();
+                        if (!strcmp(citem.teacher_name,"default"))  {
+                            MessageBox(wnd, "请输入完整的6条信息", "提示", MB_OK);
+                            break;
+                        }
                         insert_item( classList,item, citem,gitem, 4);//尾插法
                         break;
                     case 2 :
@@ -333,6 +365,10 @@ int main() {
                         break;
                     case 3 :
                         citem = read_class_info();
+                        if (!strcmp(citem.teacher_name,"default"))  {
+                            MessageBox(wnd, "请输入完整的6条信息", "提示", MB_OK);
+                            break;
+                        }
                         InputBox(s, 30, "输入要修改记录的ID");
                         strcpy(tmp_id, s);
                         if(change_item(classList, tmp_id,item, citem, gitem, 4))
@@ -351,6 +387,10 @@ int main() {
                 }
                 break;
             case 7://格式化
+                if(stat!=3) {
+                    MessageBox(wnd, "请以管理员身份执行此操作", "警告", MB_OK);
+                    break;
+                }
                 ch = MessageBox(wnd, "此操作为格式化！是否继续操作？", "警告", MB_YESNO | MB_ICONQUESTION);
                 if (ch == IDNO)//点击了NO
                     break;
