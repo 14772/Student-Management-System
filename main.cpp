@@ -107,7 +107,7 @@ int main() {
                             break;
                         }
                         if (search_item(studentList, item.id,1) == NULL) {
-                            insert_item(studentList, item,citem, gitem, 1);
+                            insert_item(studentList, teacherList, adminList, classList, gradesList, item,citem, gitem, 1);
                         } else
                             MessageBox(wnd, "此ID已存在，请换一个ID", "警告", MB_OK | MB_ICONWARNING);
                         break;
@@ -122,7 +122,7 @@ int main() {
                             break;
                         }
                         if (search_item(teacherList, item.id,2) == NULL) {
-                            insert_item(teacherList, item,citem, gitem, 2);
+                            insert_item(studentList, teacherList, adminList, classList, gradesList, item,citem, gitem, 2);
                         } else
                             MessageBox(wnd, "此ID已存在，请换一个ID", "警告", MB_OK | MB_ICONWARNING);
                         break;
@@ -137,7 +137,7 @@ int main() {
                             break;
                         }
                         if (search_item(adminList,item.id,3) == NULL) {
-                            insert_item(adminList, item,citem, gitem, 3);
+                            insert_item(studentList, teacherList, adminList, classList, gradesList, item,citem, gitem, 3);
                         } else
                             MessageBox(wnd, "此ID已存在，请换一个ID", "警告", MB_OK | MB_ICONWARNING);
                         break;
@@ -222,6 +222,7 @@ int main() {
                             default:
                                 break;
                         }
+                        break;
                     case 3:
                         cleardevice();
                         loadimage(nullptr, _T("./img/c.jpg"));
@@ -301,7 +302,7 @@ int main() {
                             MessageBox(wnd, "请输入完整的7条信息", "提示", MB_OK);
                             break;
                         }
-                        insert_item(gradesList, item, citem,gitem, 5);//尾插法
+                        insert_item(studentList, teacherList, adminList, classList, gradesList, item, citem,gitem, 5);//尾插法
                         break;
                     case 2 :
                         InputBox(s, 30, "输入要删除记录的ID");
@@ -353,7 +354,7 @@ int main() {
                             MessageBox(wnd, "请输入完整的6条信息", "提示", MB_OK);
                             break;
                         }
-                        insert_item( classList,item, citem,gitem, 4);//尾插法
+                        insert_item( studentList, teacherList, adminList, classList, gradesList,item, citem,gitem, 4);//尾插法
                         break;
                     case 2 :
                         InputBox(s, 30, "输入要删除记录的ID");

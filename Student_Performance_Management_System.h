@@ -68,7 +68,7 @@ void destroy_list_and_file(StudentList **pL1,TeacherList **pL2,AdminList **pL3,C
 void save_to_file(StudentList *pL1,TeacherList *pL2,AdminList *pL3,ClassList *pL4,GradesList *pL5);
 void output_all_items(GradesList *pL);
 void output_one_item(List *pL,int object);
-void insert_item(List *pL, struct Info item,ClassInfo citem,GradesInfo gitem,int object);
+void insert_item(StudentList *pL1,TeacherList *pL2,AdminList *pL3,ClassList *pL4,GradesList *pL5, struct Info item,ClassInfo citem,GradesInfo gitem,int object);
 bool delete_item(List *pL, char *id,int object);
 struct List *search_item(List *pL, char *id,int object);
 bool change_item(List *pL, char *id, struct Info new_info,ClassInfo citem,GradesInfo gitem,int object);

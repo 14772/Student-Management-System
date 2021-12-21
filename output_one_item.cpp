@@ -4,10 +4,12 @@
 #include "Student_Performance_Management_System.h"
 void output_one_item(List *p,int object)
 {
-    if (p == NULL)
-        return;
     char str[150];
     HWND wnd = GetHWnd();
+    if (p == NULL) {
+        MessageBox(wnd, "No information available for this ID", "Enquiry failed", MB_OK);
+        return;
+    }
     switch (object) {
         case 1:
             _stprintf(str,TEXT("ID\t\t%s\n"
