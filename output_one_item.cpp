@@ -46,11 +46,11 @@ void output_one_item(List *p,int object)
             break;
         case 4:
             _stprintf(str,TEXT("class_id\t\t%s\n"
-                               "class_name\t\t%s\n"
-                               "credit\t\t%s\n"
-                               "credit_hours\t\t%s\n"
+                               "class_name\t%s\n"
+                               "credit\t\t%d\n"
+                               "credit_hours\t%d\n"
                                "teacher_id\t\t%s\n"
-                               "teacher_name\t\t%s"),
+                               "teacher_name\t%s"),
                       p->cdata.class_id,p->cdata.class_name,p->cdata.credit,
                       p->cdata.credit_hours,p->cdata.teacher_id,p->cdata.teacher_name);
             MessageBox(wnd, str, "Enquiry successful", MB_OK);

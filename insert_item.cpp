@@ -5,15 +5,15 @@
 void insert_item(StudentList *L1,TeacherList *L2,AdminList *L3,ClassList *L4,GradesList *L5, struct Info item,ClassInfo citem,GradesInfo gitem,int object)
 {
     StudentList *pre1,*p1,*new_node1;
-    pre1 = L1->next,pre1 = L1;
+    p1 = L1->next,pre1 = L1;
     TeacherList *pre2,*p2,*new_node2;
-    pre2 = L2->next,pre2 = L2;
+    p2 = L2->next,pre2 = L2;
     AdminList *pre3,*p3,*new_node3;
-    pre3 = L3->next,pre3 = L3;
+    p3 = L3->next,pre3 = L3;
     ClassList *pre4,*p4,*new_node4;
-    pre4 = L4->next,pre4 = L4;
+    p4 = L4->next,pre4 = L4;
     GradesList *pre5,*p5,*new_node5;
-    pre5 = L5->next,pre5 = L5;
+    p5 = L5->next,pre5 = L5;
     HWND wnd = GetHWnd();
     char str[30];
     switch (object) {
